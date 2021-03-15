@@ -1,4 +1,4 @@
 module.exports = function reverse (n) {
-    var itog = String(n);
-  return itog.split("").reverse().join("");
+  return (n >=0)? String(n).split("").reverse().join("") : String(-n).split("").reverse().join("")
+ 
 }
